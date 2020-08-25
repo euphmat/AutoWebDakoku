@@ -5,6 +5,6 @@ $(function () {
     //保存ボタン
     $("#save").click(function () {
         localStorage.setItem('KNMCDS', $("#KNMCDS").val());
-        alert("設定を保存しました。");
+        // alert("設定を保存しました。");
     });
 });

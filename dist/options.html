@@ -14,21 +14,37 @@
 <body>
     <div class="container grid-lg">
         <div class="columns">
-            <div class="form-label">勤務名称</div>
-            <div class="form-group">
-                <select class="form-select" name="KNMCDS" id="KNMCDS">
-                    <option value="0900060480">8.0H_09:00-18:00</option>
-                    <option value="ABS0800"   >欠勤8.0H</option>
-                    <option value="ABS_R0800" >欠勤（労災）8.0H</option>
-                    <option value="UNI11014"  >不就労</option>
-                    <option value="UNI11018"  >半消化</option>
-                </select>
+
+            <div class="column col-12"><h3>勤務情報</h3></div>
+            
+            <div class="column col-2"><div class="form-label">勤務名称</div></div>
+            <div class="column col-8"><div class="form-label">始業・終業</div></div>
+            <div class="column col-2"><div class="form-label">通常休憩時間</div></div>
+
+            <div class="colmumn col-2">
+                <div class="form-group">
+                    <select class="form-select" name="KNMCDS" id="KNMCDS">
+                        <option value="0900060480">8.0H_09:00-18:00</option>
+                        <option value="ABS0800"   >欠勤8.0H</option>
+                        <option value="ABS_R0800" >欠勤（労災）8.0H</option>
+                        <option value="UNI11014"  >不就労</option>
+                        <option value="UNI11018"  >半消化</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="colmumn col-1">
+                <div class="form-group">
+                    <select class="form-select" name="KNMCDS" id="KNMCDS">
+                        <option value="0900060480">前日</option>
+                        <option value="ABS0800"   >当日</option>
+                        <option value="UNI11018"  >翌日</option>
+                    </select>
+                </div>
             </div>
         </div>
         
-        <div class="columns">
-            <input class="btn btn-success btn-lg" id="save" type="submit" value="保存">
-        </div>
+        <div class="column col-12"><input class="btn btn-success btn-lg" id="save" type="submit" value="保存"></div>
     </div>
     <script src="lib/jquery.min.js"></script>
     <script src="options.js"></script>
