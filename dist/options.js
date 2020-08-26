@@ -1,6 +1,7 @@
 $(function () {
     let idList = ["KNMCDS","KNMTMRNGSTD","KNMTMRNGSTH","KNMTMRNGSTM",
-                "KNMTMRNGETD","KNMTMRNGETH","KNMTMRNGETM","RTTLVAL56H","RTTLVAL56M"];
+                "KNMTMRNGETD","KNMTMRNGETH","KNMTMRNGETM","RTTLVAL56H","RTTLVAL56M",
+                "GI_TIME50_Seq0D","GI_TIME50_Seq0H","GI_TIME50_Seq0M","GI_TIME51_Seq0D","GI_TIME51_Seq0H","GI_TIME51_Seq0M"];
     for(let i = 0; i < idList.length; i++ ){
         $("#" + `${idList[i]}`).val(localStorage.getItem(`${idList[i]}`));
     }

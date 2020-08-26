@@ -11,6 +11,12 @@ $(function () {
         key8:  'KNMTMRNGETM',
         key9:  'RTTLVAL56H',
         key10: 'RTTLVAL56M',
+        key11: 'GI_TIME50_Seq0D',
+        key12: 'GI_TIME50_Seq0H',
+        key13: 'GI_TIME50_Seq0M',
+        key14: 'GI_TIME51_Seq0D',
+        key15: 'GI_TIME51_Seq0H',
+        key16: 'GI_TIME51_Seq0M',
 
     }, function (response) {
         //ローカルストレージから設定した値を取得
@@ -30,6 +36,13 @@ $(function () {
             $('input[name="RTTLVAL56H"]').val(1);
             $('input[name="RTTLVAL56M"]').val(0);
         }
+        $('select[name="GI_TIME50_Seq0D"]').val(response.Key_GI_TIME50_Seq0D);
+        $('select[name="GI_TIME50_Seq0H"]').val(response.Key_GI_TIME50_Seq0H);
+        $('select[name="GI_TIME50_Seq0M"]').val(response.Key_GI_TIME50_Seq0M);
+        $('select[name="GI_TIME51_Seq0D"]').val(response.Key_GI_TIME51_Seq0D);
+        $('select[name="GI_TIME51_Seq0H"]').val(response.Key_GI_TIME51_Seq0H);
+        $('select[name="GI_TIME51_Seq0M"]').val(response.Key_GI_TIME51_Seq0M);
+
 
     });
 });
