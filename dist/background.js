@@ -17,6 +17,9 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
             Key_GI_TIME51_Seq0D : localStorage[request.key14],
             Key_GI_TIME51_Seq0H : localStorage[request.key15],
             Key_GI_TIME51_Seq0M : localStorage[request.key16],
+            Key_SGYCD1S         : localStorage[request.key17],
+            Key_SGYCD2S         : localStorage[request.key18],
+            Key_JSKMM           : localStorage[request.key19],
         });
     else
         sendResponse({});
