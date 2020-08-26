@@ -32,7 +32,9 @@ $(function () {
         $('input[name="KNMTMRNGETH"]').val(response.Key_KNMTMRNGETH);
         $('input[name="KNMTMRNGETM"]').val(response.Key_KNMTMRNGETM);
         if (response.Key_RTTLCHKBX56 == 1){
-            $("input[name='RTTLCHKBX56']").attr("checked", "checked");
+            $("input[name='RTTLCHKBX56']").prop("checked", true);
+            $('input[name="RTTLVAL56H"]').prop('disabled', false);
+            $('input[name="RTTLVAL56M"]').prop('disabled', false);
             $('input[name="RTTLVAL56H"]').val(response.Key_RTTLVAL56H);
             $('input[name="RTTLVAL56M"]').val(response.Key_RTTLVAL56M);
         }else{
