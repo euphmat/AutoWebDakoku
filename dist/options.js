@@ -15,9 +15,9 @@ $(function () {
     // CheckboxのLocalStorage値切り替え
     $("input[name='RTTLCHKBX56']").click(function() {
         if ($(this).is(":checked")) {
-            localStorage.setItem("RTTLCHKBX56", 1);
+            data = 1;
         } else {
-            localStorage.setItem("RTTLCHKBX56", 0);
+            data = 0;
 
         }
     });
@@ -28,5 +28,11 @@ $(function () {
         for(let i = 0; i < idList.length; i++ ){
             localStorage.setItem(`${idList[i]}`, $("#" + `${idList[i]}`).val());
         }
+        if (data == 1) {
+            localStorage.setItem("RTTLCHKBX56", 1);
+        }else{
+            localStorage.setItem("RTTLCHKBX56", 0);
+        }
+
     });
 });
