@@ -50,8 +50,6 @@ $(function () {
 
         $('select[name="SGYCD1S"]').val(response.Key_SGYCD1S);
         $('select[name="SGYCD2S"]').val(response.Key_SGYCD2S);
-        $('select[name="JSKMM"]').val(response.Key_JSKMM);
-
-
+        $('textarea[name="JSKMM"]').val(response.Key_JSKMM);
     });
 });
