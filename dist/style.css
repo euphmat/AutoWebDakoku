@@ -1,3 +1,17 @@
-.columns{
-    background-color: ;
+.container{
+    background-color: rgb(251, 251, 251);
+}
+.btn{
+    width: 100%;
+    margin-top: 10px;
+}
+input,select,textarea{
+    border-radius: 10px !important;
+    margin-bottom: 2px !important;
+}
+.toast{
+    position: absolute;
+}
+.form-label{
+    font-weight: bold;
 }
