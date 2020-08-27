@@ -1,7 +1,13 @@
 $(function () {
+    // 通知バーを隠す
+    $('.toast').hide();
+
+    // フォームのIDリスト（チェックボックスを省く）
     let idList = ["KNMCDS","KNMTMRNGSTD","KNMTMRNGSTH","KNMTMRNGSTM","KNMTMRNGETD","KNMTMRNGETH","KNMTMRNGETM","RTTLVAL56H","RTTLVAL56M",
                 "GI_TIME50_Seq0D","GI_TIME50_Seq0H","GI_TIME50_Seq0M","GI_TIME51_Seq0D","GI_TIME51_Seq0H","GI_TIME51_Seq0M",
                 "SGYCD1S","SGYCD2S","JSKMM"];
+    
+    // ローカルストレージに設定されている値を取得し、各フォームに値を入力する
     for(let i = 0; i < idList.length; i++ ){
         $("#" + `${idList[i]}`).val(localStorage.getItem(`${idList[i]}`));
     }
@@ -23,7 +29,7 @@ $(function () {
     });
 
 
-    // 保存ボタン押下時処理
+    // 保存ボタン押下処理
     $("#save").click(function SaveBtn() {
         for(let i = 0; i < idList.length; i++ ){
             localStorage.setItem(`${idList[i]}`, $("#" + `${idList[i]}`).val());
@@ -33,8 +39,14 @@ $(function () {
         }else{
             localStorage.setItem("RTTLCHKBX56", 0);
         }
+        $('.toast').fadeIn();
+
+        setTimeout(function(){
+            $('.toast').fadeOut();
+        },1500);
     });
 
+    // リセットボタン押下処理
     $("#reset").click(function ResetBtn() {
         for(let i = 0; i < idList.length; i++ ){
             localStorage.setItem(`${idList[i]}`, $("#" + `${idList[i]}`).val(null));
@@ -42,5 +54,9 @@ $(function () {
         }
         localStorage.setItem("RTTLCHKBX56", 0);
         $("input[name='RTTLCHKBX56']").prop("checked", false);
+    });
+
+    $(".toastbtn").click(function ToastBtn() {
+        $('.toast').fadeOut();
     });
 });
