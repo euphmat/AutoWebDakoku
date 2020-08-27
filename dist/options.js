@@ -52,6 +52,7 @@ $(function () {
             localStorage.setItem(`${idList[i]}`, $("#" + `${idList[i]}`).val(null));
             localStorage.setItem(`${idList[i]}`, $("#" + `${idList[i]}`).val());
         }
+        data=0;
         localStorage.setItem("RTTLCHKBX56", 0);
         $("input[name='RTTLCHKBX56']").prop("checked", false);
     });
