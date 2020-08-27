@@ -5,7 +5,7 @@ body{
     background-attachment: fixed !important;
 }
 .container{
-    margin: 60px 0px;
+    margin: 35px 10px;
     padding: 20px !important;
     background-color: #fff;
     border-radius: 12px;
@@ -19,5 +19,5 @@ input,select,textarea{
 }
 .toast{
     position: absolute;
-    top: -60px;
+    top: -35px;
 }
