@@ -8,6 +8,9 @@
         "48": "img/icon48.png",
         "128": "img/icon128.png"
 },
+    "browser_action":{
+        "default_popup": "popup.html"
+    },
     "content_scripts": [{
         "matches": ["https://ghr.unify.persol-group.co.jp/cws/cws/*"],
         "js": ["lib/jquery.min.js", "content_script.js"]
