@@ -39,7 +39,7 @@ $(function () {
         }else{
             localStorage.setItem("RTTLCHKBX56", 0);
         }
-        $('.toast').fadeIn();
+        $('.toast_save').fadeIn();
 
         setTimeout(function(){
             $('.toast').fadeOut();
@@ -55,8 +55,15 @@ $(function () {
         data=0;
         localStorage.setItem("RTTLCHKBX56", 0);
         $("input[name='RTTLCHKBX56']").prop("checked", false);
+
+        $('.toast_reset').fadeIn();
+
+        setTimeout(function(){
+            $('.toast').fadeOut();
+        },1500);
     });
 
+    // Toastの×ボタン押下処理
     $(".toastbtn").click(function ToastBtn() {
         $('.toast').fadeOut();
     });
