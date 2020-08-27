@@ -8,13 +8,10 @@
     <link rel="stylesheet" href="lib/spectre-exp.min.css">
     <link rel="stylesheet" href="lib/spectre-icons.min.css">
     <link rel="stylesheet" href="lib/spectre.min.css">
-    <title>設定</title>
-    <style>body{width:550px;height:590px;}</style>
+    <style>body{width:550px;height:590px;}</style>  <!-- ポップアップウィンドウの大きさ1 -->
 </head>
 
 <body>
-    
-    <div class="toast toast-secondary">👍 設定を保存しました。<button class="toastbtn btn btn-clear float-right"></button></div>
     <div class="container grid-lg">
         <div class="columns">
             <div class="column col-12"><div class="form-label">勤務名称</div></div>
@@ -24,19 +21,16 @@
             <div class="column col-5"><div class="form-label">通常休憩時間</div></div>
 
             <div class="column col-2"><div class="form-group"><select class="form-select" name="KNMTMRNGSTD" id="KNMTMRNGSTD"><option value="-1">前日</option><option value="0">当日</option><option value="1">翌日</option></select></div></div>
-            <div class="column col-2"><input class="form-input" id="KNMTMRNGSTH" type="text"></div>
-            <div class="form-label">時</div>
+            <div class="column col-2"><input class="form-input" id="KNMTMRNGSTH" type="text"></div><div class="form-label">時</div>
             <div class="column col-2"><input class="form-input" id="KNMTMRNGSTM" type="text"></div>
             <div class="column col-1"><div class="form-label">分~</div></div>
             <div class="column col-4"><div class="form-group"><label class="form-checkbox"><input type="checkbox" name="RTTLCHKBX56" id="RTTLCHKBX56"><i class="form-icon"></i>修正</label></div></div>
 
             <div class="column col-2"><div class="form-group"><select class="form-select" name="KNMTMRNGETD" id="KNMTMRNGETD"><option value="-1">前日</option><option value="0">当日</option><option value="1">翌日</option></select></div></div>
-            <div class="column col-2"><input class="form-input" id="KNMTMRNGETH" type="text"></div>
-            <div class="form-label">時</div>
+            <div class="column col-2"><input class="form-input" id="KNMTMRNGETH" type="text"></div><div class="form-label">時</div>
             <div class="column col-2"><input class="form-input" id="KNMTMRNGETM" type="text"></div>
             <div class="column col-1"><div class="form-label">分</div></div>
-            <div class="column col-2"><input class="form-input" id="RTTLVAL56H" type="text"></div>
-            <div class="form-label">：</div>
+            <div class="column col-2"><input class="form-input" id="RTTLVAL56H" type="text"></div><div class="form-label">：</div>
             <div class="column col-2"><input class="form-input" id="RTTLVAL56M" type="text"></div>
 
             <div class="column col-6"><div class="form-label">深夜休憩 開始時刻</div></div>
@@ -50,20 +44,24 @@
             <div class="column col-2"><div class="form-group"><select class="form-select" name="GI_TIME51_Seq0M" id="GI_TIME51_Seq0M"><option value="0">00</option><option value="5">05</option><option value="10">10</option><option value="15">15</option><option value="20">20</option><option value="25">25</option><option value="30">30</option><option value="35">35</option><option value="40">40</option><option value="45">45</option><option value="50">50</option><option value="55">55</option><option value="999">--</option></select></div></div>
 
             <div class="column col-12"><div class="form-label">打刻なし理由</div></div>
+
             <div class="column col-8"><div class="form-group"><select class="form-select" name="SGYCD1S" id="SGYCD1S"><option value="DEFAULT_CODE">---------[選 択]---------</option><option value="1000">出勤時打刻漏れ</option><option value="1001">退勤時打刻漏れ</option><option value="1002">出・退勤時打刻漏れ</option><option value="1003">直行・直帰</option><option value="1004">直行</option><option value="1005">直帰</option><option value="1006">出張</option><option value="1007">システム停止時間</option></select></div></div>
             <div class="column col-4"><div class="form-label"></div></div>
 
             <div class="column col-12"><div class="form-label">打刻乖離理由</div></div>
+
             <div class="column col-8"><div class="form-group"><select class="form-select" name="SGYCD2S" id="SGYCD2S"><option value="DEFAULT_CODE">---------[選 択]---------</option><option value="1010">私用・自己啓発等</option><option value="1020">理由を備考欄に記載</option><option value="1030">打刻誤り</option></select></div></div>
             <div class="column col-4"><div class="form-label"></div></div>
 
-            <div class="column col-3"><div class="form-label">備考</div></div>
+            <div class="column col-12"><div class="form-label">備考</div></div>
+
             <div class="column col-12"><div class="form-group"><textarea class="form-input" name="JSKMM" id="JSKMM" rows="3"></textarea></div></div>
             
             <div class="column col-6"><input class="btn btn-success btn-lg" id="save" type="submit" value="保存"></div>
-            <div class="column col-6"><input class="btn btn-error   btn-lg float-right" id="reset" type="reset" value="リセット"></div>
-            <div class="column col-12"> </div>
+            <div class="column col-6"><input class="btn btn-error   btn-lg" id="reset" type="reset" value="設定をリセット"></div>
             
+            <!-- Toast -->
+            <div class="toast toast-secondary">👍 設定を保存しました。<button class="toastbtn btn btn-clear float-right"></button></div>
         </div>
     </div>
     <script src="lib/jquery.min.js"></script>
