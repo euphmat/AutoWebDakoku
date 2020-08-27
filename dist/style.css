@@ -1,3 +1,6 @@
-.columns{
-    background-color: ;
+body{
+    position: relative;
+}
+.btn{
+    width: 100%;
 }
