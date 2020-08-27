@@ -24,7 +24,7 @@ $(function () {
 
 
     // 保存ボタン押下時処理
-    $("#save").click(function () {
+    $("#save").click(function SaveBtn() {
         for(let i = 0; i < idList.length; i++ ){
             localStorage.setItem(`${idList[i]}`, $("#" + `${idList[i]}`).val());
         }
@@ -33,6 +33,14 @@ $(function () {
         }else{
             localStorage.setItem("RTTLCHKBX56", 0);
         }
+    });
 
+    $("#reset").click(function ResetBtn() {
+        for(let i = 0; i < idList.length; i++ ){
+            localStorage.setItem(`${idList[i]}`, $("#" + `${idList[i]}`).val(null));
+            localStorage.setItem(`${idList[i]}`, $("#" + `${idList[i]}`).val());
+        }
+        localStorage.setItem("RTTLCHKBX56", 0);
+        $("input[name='RTTLCHKBX56']").prop("checked", false);
     });
 });
