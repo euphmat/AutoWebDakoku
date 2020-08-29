@@ -39,10 +39,10 @@ $(function () {
         }else{
             localStorage.setItem("RTTLCHKBX56", 0);
         }
-        $('.toast_save').fadeIn();
+        $('.toast_save').slideDown();
 
         setTimeout(function(){
-            $('.toast').fadeOut();
+            $('.toast').slideUp();
         },1500);
     });
 
@@ -56,15 +56,15 @@ $(function () {
         localStorage.setItem("RTTLCHKBX56", 0);
         $("input[name='RTTLCHKBX56']").prop("checked", false);
 
-        $('.toast_reset').fadeIn();
+        $('.toast_reset').slideDown();
 
         setTimeout(function(){
-            $('.toast').fadeOut();
+            $('.toast').slideUp();
         },1500);
     });
 
     // Toastの×ボタン押下処理
     $(".toastbtn").click(function ToastBtn() {
-        $('.toast').fadeOut();
+        $('.toast').slideUp();
     });
 });
