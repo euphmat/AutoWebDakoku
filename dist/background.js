@@ -20,7 +20,7 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
             Key_SGYCD1S         : localStorage[request.key17],
             Key_SGYCD2S         : localStorage[request.key18],
             Key_JSKMM           : localStorage[request.key19],
-            Key_ENABLEDISABLE   : localStorage[request.Key20],
+            Key_ENABLEDISABLE   : localStorage[request.key20],
         });
     else
         sendResponse({});

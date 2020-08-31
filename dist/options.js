@@ -89,6 +89,7 @@ $(function () {
         $('.toast').slideUp();
     });
 
+    // 全てのフォームを無効化する関数
     function formDisable(){
         for (let i = 0; i < idList.length; i++) {
             $("#" + `${idList[i]}`).prop("disabled", true);
@@ -98,6 +99,7 @@ $(function () {
         $('#reset').prop("disabled", true);
     }
 
+    // 全てのフォームを有効化する関数
     function formEnable(){
         for (let i = 0; i < idList.length; i++) {
             $("#" + `${idList[i]}`).prop("disabled", false);

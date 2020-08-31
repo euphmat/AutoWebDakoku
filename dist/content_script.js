@@ -23,10 +23,9 @@ $(function () {
         key20: 'ENABLEDISABLE',
 
     }, function (response) {
-        alert(response.Key_ENABLEDISABLE);
-        alert(response.Key_RTTLCHKBX56);
+        // 有効化／無効化スイッチが有効の時のみ実行される
         if(response.Key_ENABLEDISABLE == 1){
-            //ローカルストレージから設定した値を取得
+            //ローカルストレージから設定したおいた値を取得し、それぞれのフォームへ自動的に入力させる
             $('select[name="KNMCDS"]').val(response.Key_KNMCDS);
             $('select[name="KNMTMRNGSTD"]').val(response.Key_KNMTMRNGSTD);
             $('input[name="KNMTMRNGSTH"]').val(response.Key_KNMTMRNGSTH);
@@ -55,6 +54,5 @@ $(function () {
             $('select[name="SGYCD2S"]').val(response.Key_SGYCD2S);
             $('textarea[name="JSKMM"]').val(response.Key_JSKMM);
         }
-        
     });
 });
