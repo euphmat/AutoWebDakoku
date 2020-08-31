@@ -20,36 +20,41 @@ $(function () {
         key17: 'SGYCD1S',
         key18: 'SGYCD2S',
         key19: 'JSKMM',
+        key20: 'ENABLEDISABLE',
 
     }, function (response) {
-        //ローカルストレージから設定した値を取得
-        $('select[name="KNMCDS"]').val(response.Key_KNMCDS);
-        $('select[name="KNMTMRNGSTD"]').val(response.Key_KNMTMRNGSTD);
-        $('input[name="KNMTMRNGSTH"]').val(response.Key_KNMTMRNGSTH);
-        $('input[name="KNMTMRNGSTM"]').val(response.Key_KNMTMRNGSTM);
-        $('checkbox[name="RTTLCHKBX56"]').val(response.Key_RTTLCHKBX56);
-        $('select[name="KNMTMRNGETD"]').val(response.Key_KNMTMRNGETD);
-        $('input[name="KNMTMRNGETH"]').val(response.Key_KNMTMRNGETH);
-        $('input[name="KNMTMRNGETM"]').val(response.Key_KNMTMRNGETM);
-        if (response.Key_RTTLCHKBX56 == 1){
-            $("input[name='RTTLCHKBX56']").prop("checked", true);
-            $('input[name="RTTLVAL56H"]').prop('disabled', false);
-            $('input[name="RTTLVAL56M"]').prop('disabled', false);
-            $('input[name="RTTLVAL56H"]').val(response.Key_RTTLVAL56H);
-            $('input[name="RTTLVAL56M"]').val(response.Key_RTTLVAL56M);
-        }else{
-            $('input[name="RTTLVAL56H"]').val(1);
-            $('input[name="RTTLVAL56M"]').val(0);
+        alert(response.Key_ENABLEDISABLE);
+        alert(response.Key_RTTLCHKBX56);
+        if(response.Key_ENABLEDISABLE == 1){
+            //ローカルストレージから設定した値を取得
+            $('select[name="KNMCDS"]').val(response.Key_KNMCDS);
+            $('select[name="KNMTMRNGSTD"]').val(response.Key_KNMTMRNGSTD);
+            $('input[name="KNMTMRNGSTH"]').val(response.Key_KNMTMRNGSTH);
+            $('input[name="KNMTMRNGSTM"]').val(response.Key_KNMTMRNGSTM);
+            $('checkbox[name="RTTLCHKBX56"]').val(response.Key_RTTLCHKBX56);
+            $('select[name="KNMTMRNGETD"]').val(response.Key_KNMTMRNGETD);
+            $('input[name="KNMTMRNGETH"]').val(response.Key_KNMTMRNGETH);
+            $('input[name="KNMTMRNGETM"]').val(response.Key_KNMTMRNGETM);
+            if (response.Key_RTTLCHKBX56 == 1){
+                $("input[name='RTTLCHKBX56']").prop("checked", true);
+                $('input[name="RTTLVAL56H"]').prop('disabled', false);
+                $('input[name="RTTLVAL56M"]').prop('disabled', false);
+                $('input[name="RTTLVAL56H"]').val(response.Key_RTTLVAL56H);
+                $('input[name="RTTLVAL56M"]').val(response.Key_RTTLVAL56M);
+            }else{
+                $('input[name="RTTLVAL56H"]').val(1);
+                $('input[name="RTTLVAL56M"]').val(0);
+            }
+            $('select[name="GI_TIME50_Seq0D"]').val(response.Key_GI_TIME50_Seq0D);
+            $('select[name="GI_TIME50_Seq0H"]').val(response.Key_GI_TIME50_Seq0H);
+            $('select[name="GI_TIME50_Seq0M"]').val(response.Key_GI_TIME50_Seq0M);
+            $('select[name="GI_TIME51_Seq0D"]').val(response.Key_GI_TIME51_Seq0D);
+            $('select[name="GI_TIME51_Seq0H"]').val(response.Key_GI_TIME51_Seq0H);
+            $('select[name="GI_TIME51_Seq0M"]').val(response.Key_GI_TIME51_Seq0M);
+            $('select[name="SGYCD1S"]').val(response.Key_SGYCD1S);
+            $('select[name="SGYCD2S"]').val(response.Key_SGYCD2S);
+            $('textarea[name="JSKMM"]').val(response.Key_JSKMM);
         }
-        $('select[name="GI_TIME50_Seq0D"]').val(response.Key_GI_TIME50_Seq0D);
-        $('select[name="GI_TIME50_Seq0H"]').val(response.Key_GI_TIME50_Seq0H);
-        $('select[name="GI_TIME50_Seq0M"]').val(response.Key_GI_TIME50_Seq0M);
-        $('select[name="GI_TIME51_Seq0D"]').val(response.Key_GI_TIME51_Seq0D);
-        $('select[name="GI_TIME51_Seq0H"]').val(response.Key_GI_TIME51_Seq0H);
-        $('select[name="GI_TIME51_Seq0M"]').val(response.Key_GI_TIME51_Seq0M);
-
-        $('select[name="SGYCD1S"]').val(response.Key_SGYCD1S);
-        $('select[name="SGYCD2S"]').val(response.Key_SGYCD2S);
-        $('textarea[name="JSKMM"]').val(response.Key_JSKMM);
+        
     });
 });

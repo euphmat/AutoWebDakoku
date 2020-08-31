@@ -14,17 +14,39 @@ $(function () {
     }
 
     // ローカルストレージから休憩時間修正の値を取得し、チェックを付ける必要があれば付ける
-    let data = localStorage.getItem("RTTLCHKBX56");
-    if (data == 1) {
-        $("input[name='RTTLCHKBX56']").attr("checked", "checked");
+    let restCheckBox = localStorage.getItem("RTTLCHKBX56");
+    if (restCheckBox == 1) {
+        $("input[name='RTTLCHKBX56']").prop("checked", true);
     }
+
+    // 有効化無効化スイッチの値を取得し、チェックを付ける必要があれば付ける
+    let enabledisableSwitch = localStorage.getItem("ENABLEDISABLE");
+    if (enabledisableSwitch == 1) {
+        $("input[name='ENABLEDISABLE']").prop("checked", true);
+        formEnable();
+    }else{
+        $("input[name='ENABLEDISABLE']").prop("checked", false);
+        formDisable();
+    }
+
+    // 有効化無効化スイッチ押下処理
+    $("input[name='ENABLEDISABLE']").click(function () {
+        if ($(this).is(":checked")) {
+            localStorage.setItem("ENABLEDISABLE", 1);
+            formEnable();
+        }else{
+            localStorage.setItem("ENABLEDISABLE", 0);
+            formDisable();
+        }
+        
+    });
 
     // 保存ボタン押下処理
     $("#save").click(function () {
         for (let i = 0; i < idList.length; i++) {
             localStorage.setItem(`${idList[i]}`, $("#" + `${idList[i]}`).val());
         }
-        if (data == 1) {
+        if (restCheckBox == 1) {
             localStorage.setItem("RTTLCHKBX56", 1);
         } else {
             localStorage.setItem("RTTLCHKBX56", 0);
@@ -42,7 +64,7 @@ $(function () {
             localStorage.setItem(`${idList[i]}`, $("#" + `${idList[i]}`).val(null));
             localStorage.setItem(`${idList[i]}`, $("#" + `${idList[i]}`).val());
         }
-        data = 0;
+        restCheckBox = 0;
         localStorage.setItem("RTTLCHKBX56", 0);
         $("input[name='RTTLCHKBX56']").prop("checked", false);
 
@@ -56,16 +78,32 @@ $(function () {
     // 休憩時間チェックボックス押下処理
     $("input[name='RTTLCHKBX56']").click(function () {
         if ($(this).is(":checked")) {
-            data = 1;
+            restCheckBox = 1;
         } else {
-            data = 0;
+            restCheckBox = 0;
         }
     });
 
     // Toastの×ボタン押下処理
-    $(".toastbtn").click(function ToastBtn() {
+    $(".toastbtn").click(function () {
         $('.toast').slideUp();
     });
 
-    
+    function formDisable(){
+        for (let i = 0; i < idList.length; i++) {
+            $("#" + `${idList[i]}`).prop("disabled", true);
+        }
+        $("input[name='RTTLCHKBX56']").prop("disabled", true);
+        $('#save').prop("disabled", true);
+        $('#reset').prop("disabled", true);
+    }
+
+    function formEnable(){
+        for (let i = 0; i < idList.length; i++) {
+            $("#" + `${idList[i]}`).prop("disabled", false);
+        }
+        $("input[name='RTTLCHKBX56']").prop("disabled", false);
+        $('#save').prop("disabled", false);
+        $('#reset').prop("disabled", false);
+    }
 });
