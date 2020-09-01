@@ -1,6 +1,6 @@
 # Web打刻自動入力システム
 
-![GIF](https://imgur.com/t5TnigW.gif)
+![image](https://i.imgur.com/XDd59DT.png)
 
 > https://ghr.unify.persol-group.co.jp/cws/srwtimerec
 
