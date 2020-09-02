@@ -1,29 +1,29 @@
-<mxfile host="dd304991-c814-4ebc-9b76-230812c177b1" modified="2020-09-01T05:52:59.605Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.47.3 Chrome/78.0.3904.130 Electron/7.3.2 Safari/537.36" etag="cnVcQpfYUiKydqx2J-To" version="13.1.3">
+<mxfile host="c57288b8-3822-4b92-bd09-169da925ffd0" modified="2020-09-02T04:49:38.858Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.47.3 Chrome/78.0.3904.130 Electron/7.3.2 Safari/537.36" etag="McE3sIeAa3tbkXxSy-aM" version="13.1.3">
     <diagram id="6hGFLwfOUW9BJ-s0fimq" name="Page-1">
-        <mxGraphModel dx="1425" dy="1178" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="500" pageHeight="250" math="0" shadow="0">
+        <mxGraphModel dx="1425" dy="1178" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="600" pageHeight="250" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="23" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry width="500" height="250" as="geometry"/>
+                    <mxGeometry width="600" height="250" as="geometry"/>
                 </mxCell>
                 <mxCell id="2" value="ユーザ" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
                     <mxGeometry x="30" y="22" width="30" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="9" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" parent="1" vertex="1">
-                    <mxGeometry x="140" y="22" width="100" height="70" as="geometry"/>
+                    <mxGeometry x="190" y="22" width="100" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="10" value="" style="shape=flexArrow;endArrow=classic;html=1;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="70" y="51.579999999999984" as="sourcePoint"/>
-                        <mxPoint x="120" y="51.579999999999984" as="targetPoint"/>
+                        <mxPoint x="105" y="51.499999999999986" as="sourcePoint"/>
+                        <mxPoint x="155" y="51.499999999999986" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="11" value="手作業で&lt;br&gt;勤怠入力" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-                    <mxGeometry x="70" y="87" width="60" height="30" as="geometry"/>
+                    <mxGeometry x="100" y="70" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="12" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;" parent="1" vertex="1">
-                    <mxGeometry x="130" y="132" width="170" height="60" as="geometry"/>
+                    <mxGeometry x="190" y="132" width="170" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="13" value="&lt;font style=&quot;font-size: 13px&quot; color=&quot;#000000&quot;&gt;Web打刻&lt;br&gt;自動入力システム&lt;/font&gt;" style="dashed=0;connectable=0;html=1;fillColor=#5184F3;strokeColor=none;shape=mxgraph.gcp2.hexIcon;prIcon=container_optimized_os;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontColor=#999999;fontSize=12;" parent="12" vertex="1">
                     <mxGeometry y="0.5" width="44" height="39" relative="1" as="geometry">
@@ -37,28 +37,31 @@
                     <mxGeometry x="30" y="132" width="30" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="16" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" parent="1" vertex="1">
-                    <mxGeometry x="370" y="127" width="100" height="70" as="geometry"/>
+                    <mxGeometry x="440" y="132" width="100" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="17" value="" style="shape=flexArrow;endArrow=classic;html=1;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="70" y="161.58" as="sourcePoint"/>
-                        <mxPoint x="120" y="161.58" as="targetPoint"/>
+                        <mxPoint x="105" y="161.5" as="sourcePoint"/>
+                        <mxPoint x="155" y="161.5" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="19" value="プログラムが&lt;br&gt;自動で入力" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-                    <mxGeometry x="292" y="197" width="90" height="30" as="geometry"/>
+                <mxCell id="19" value="システムが&lt;br&gt;自動で入力" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="202" width="80" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="22" value="" style="shape=flexArrow;endArrow=classic;html=1;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="310" y="161.57999999999993" as="sourcePoint"/>
-                        <mxPoint x="360" y="161.57999999999993" as="targetPoint"/>
+                        <mxPoint x="375" y="161.49999999999994" as="sourcePoint"/>
+                        <mxPoint x="425" y="161.49999999999994" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="24" value="COMPANY&lt;br&gt;HR" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-                    <mxGeometry x="394" y="140" width="70" height="30" as="geometry"/>
+                <mxCell id="24" value="COMPANY&lt;br&gt;HR" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="464" y="145" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" value="COMPANY&lt;br&gt;HR" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-                    <mxGeometry x="164" y="35" width="70" height="30" as="geometry"/>
+                <mxCell id="25" value="COMPANY&lt;br&gt;HR" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="214" y="35" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="繰り返し入力したい&lt;br&gt;勤怠情報を登録" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="192" width="120" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
