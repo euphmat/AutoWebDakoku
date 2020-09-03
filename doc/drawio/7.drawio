@@ -1,6 +1,6 @@
-<mxfile host="972df876-5466-4865-8e6a-e1b9ca5858f6" modified="2020-09-02T02:01:39.297Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.47.3 Chrome/78.0.3904.130 Electron/7.3.2 Safari/537.36" etag="h4R8otxSutZfdnNMGG-c" version="13.1.3">
+<mxfile host="e48c9846-da09-48d1-8ec2-fe7bfb4687fb" modified="2020-09-02T23:57:51.128Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.47.3 Chrome/78.0.3904.130 Electron/7.3.2 Safari/537.36" etag="mTEHebUsZYSQjpbPQ50d" version="13.1.3">
     <diagram id="6hGFLwfOUW9BJ-s0fimq" name="Page-1">
-        <mxGraphModel dx="464" dy="1178" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="500" math="0" shadow="0">
+        <mxGraphModel dx="814" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="500" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -18,6 +18,16 @@
                 </mxCell>
                 <mxCell id="12" value="&lt;font style=&quot;font-size: 16px&quot;&gt;COMPANY HR&lt;br&gt;Web打刻&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="662.5" y="286" width="130" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="18" target="36">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="18" target="36">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="727" y="235"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="18" value="&lt;b&gt;ローカルストレージ&lt;/b&gt;" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" parent="1" vertex="1">
                     <mxGeometry x="670" y="15.799999999999997" width="115" height="104.6" as="geometry"/>
@@ -47,15 +57,6 @@
                 </mxCell>
                 <mxCell id="41" value="ローカルストレージへ値を保存" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
                     <mxGeometry x="470" y="58" width="180" height="20" as="geometry"/>
-                </mxCell>
-                <mxCell id="51" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="36" target="18" edge="1">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="490" y="300" as="sourcePoint"/>
-                        <mxPoint x="540" y="250" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="728" y="235"/>
-                        </Array>
-                    </mxGeometry>
                 </mxCell>
                 <mxCell id="52" value="ローカルストレージ値の要求・応答" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
                     <mxGeometry x="470" y="225" width="210" height="20" as="geometry"/>

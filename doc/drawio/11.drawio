@@ -1,0 +1,234 @@
+<mxfile host="f773c723-79e5-44a5-bce0-4b1fe2bf61b8" modified="2020-09-02T23:47:02.495Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.47.3 Chrome/78.0.3904.130 Electron/7.3.2 Safari/537.36" etag="bK8GdwixMWG71dY3_cI_" version="13.1.3">
+    <diagram id="6hGFLwfOUW9BJ-s0fimq" name="Page-1">
+        <mxGraphModel dx="1425" dy="1178" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="500" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="182" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="450" width="650" height="500" as="geometry"/>
+                </mxCell>
+                <mxCell id="181" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry width="450" height="500" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="2" target="53" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="ユーザ" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="75" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7" target="15" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="390" y="105"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="Web打刻自動入力システム&lt;br&gt;&lt;br&gt;設定画面" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="161" y="10" width="170" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="ローカル&lt;br&gt;ストレージ" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" parent="1" vertex="1">
+                    <mxGeometry x="350" y="187.5" width="79" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="保存" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="171" y="170" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="171" y="70" width="70" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="171" y="90" width="120" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="171" y="110" width="70" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="171" y="130" width="110" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="171" y="150" width="70" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="設定画面の&lt;br&gt;「有効化／無効化」&lt;br&gt;スイッチをON" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="45" y="120" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="リセット" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+                    <mxGeometry x="221" y="170" width="50" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="" style="shape=delay;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="93" y="95" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="" style="shape=delay;whiteSpace=wrap;html=1;rotation=-180;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="83" y="95" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="52" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="103" y="95" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="" style="shape=delay;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="291" y="170" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="" style="shape=delay;whiteSpace=wrap;html=1;rotation=-180;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="281" y="170" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="301" y="170" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="62" target="81" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="ユーザ" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="312.5" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="63" target="15" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="390" y="343"/>
+                            <mxPoint x="390" y="261"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="63" value="Web打刻自動入力システム&lt;br&gt;&lt;br&gt;設定画面" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="161" y="247.5" width="170" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="保存" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="171" y="407.5" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="171" y="307.5" width="70" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="171" y="327.5" width="120" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="171" y="347.5" width="70" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="171" y="367.5" width="110" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="171" y="387.5" width="70" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="設定画面の&lt;br&gt;「有効化／無効化」&lt;br&gt;スイッチをOFF" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="45" y="362.5" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="リセット" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="221" y="407.5" width="50" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="" style="shape=delay;whiteSpace=wrap;html=1;rotation=-180;" parent="1" vertex="1">
+                    <mxGeometry x="281" y="407.5" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="" style="shape=delay;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+                    <mxGeometry x="291" y="407.5" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="281" y="407.5" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="" style="shape=delay;whiteSpace=wrap;html=1;rotation=-180;" parent="1" vertex="1">
+                    <mxGeometry x="83" y="332.5" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="80" target="63" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="" style="shape=delay;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+                    <mxGeometry x="93" y="332.5" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="83" y="332.5" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="フォームへは入力できないよう、&lt;br&gt;無効化状態になる" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="141" y="450" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="119" target="140" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="119" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAADQAAAAVCAIAAACG6lovAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAANKADAAQAAAABAAAAFQAAAAChHuu3AAAEn0lEQVRIDbVWIXTbMBDV3iuQmc0S6DGPeSyBKctYxlqYspQtbIEpy1jDGpiyhjWshg2bWcJmaDObWaz7p7Nlxcm6kSnv+d2d/kk/d7qTPry9vYnjkWTqkBSiPLb+Z833pd91pTza5sLWwGm1SeOkKFWpcqHwA1wpKaVS78mSoBWMwX91sZeFu/SE73vjoT8IXUPpA0cOWy/Xh3WUEgn8FAHKUjmOtL/G+I6AiDu173uw48WB7Pqu5zm9wL299jsuxbAidzOLo13KPISkeJkAAATGRrXl9pQQJoRmyghnHe1ZVUAT0hWB761moetKSus2yp6jhGbqsX8a1qK4vN293A+g9m8iRzpGFhIBIjbGCCTC5gkHpwKzEhHUAlskwoKIaiNcIJCqSgCLnHZDRHIlylTFKn+K0vHIJ3Lz5Z7zaM7jp6/b5KD/CHmJy6l4WfReHwZfZjFU59MjvoNRQHOIsx4wlvsriMC8zHtsNF92hAr006y3ec1whPJCnx626t00e5GnarVOrof+RVbo2tTEea1fz03YYEE88MXq0ebA20MdTUL8H/yZ9YQoXi8P+GIwbzEPmSur8IIvXBiD76jfwXe9TXOEFltTNVUHnTFglaTFBY4/Bh8Invj4ZZuilVij4jSvVmf15jEx7WazjGG8WdHZuP52FLaW6tTBAj8kdP2kaCtZMg2zJ05/kihKKwLAaW3mdIJYReQup7vXLW0MBlVs9NxkMZhus+U0YroPY9/tIjNHw1gcKUuFI9bMDnHo3fBuFecUPsp4zbzCEDlmxmliUOvM9dF+RoEuAHJDghwP5Vvx+HZPx8Bk8G53FHVysIaJHNv6vvw+Du+WcYomZsFYJHI8TDUA9Muq1j6qddFkyuSUoiCdxbDD7myH/L3n4suqMTKG7CccNL9gOv9JDfZ4nE9rK3Ko1tO0jufUXzittKvO+OmXp5pNdXdtVC1lOSijJNrsmrQaB4BafQ5Tp2k1eBACRahGMFMQcC5tldOKEGEXHmgr9497yO24CdGktQZXIHOGXu6bnAIDBoxEbWI5FAFU1MRiSHZkuSiO8EWqTzv71Gk1zH5sk+dtgnv87DifVoYGYQeCXZ6cNbOQ3boYCcB6vnu4IsY8zCGrBCutKzCLMup0IIuuaQUPd3q3Ky86aDe4QAp0OuopGOZvVcvj4hr6KE6j1neDKFJKhc3e3AQcYBNmwBhcl7hAzKIow/0GC19fdlqxmw9ycJtc+bMfsdmdQfa6Ja48LFAvnGda1vcmahkrhIMqVLiRQt39bca8FHs5us/cLg/7Q4obFmuqHFVP7cxEDupo6OPip1cJJvq4TFM8PXAb40FCIbTv1iDowMi3yCHOoKK0KJJU/fRggYhBU/okAAn3tlc91TxwkCVEQq8Md9DAcrgbvK6MlgOktHoyZZkaz+Kf+xQgz8PT8l8fc0QKx1w/zlqybbQxxs6CUckd2fS9xSQIA2qWFTlI4L3aJHhy4lEAlZ+ZEFryqaoREu2VBMvRXkFPNJizMAQML5HJV0oo4W1yrCNmr3FG+6CI+AVz+sXsqfHU0oL9SdV20Pkc4KqtaMGG8RsJSCAmX/NkbwAAAABJRU5ErkJggg==;" parent="1" vertex="1">
+                    <mxGeometry x="525" y="111.5" width="52" height="21" as="geometry"/>
+                </mxCell>
+                <mxCell id="120" value="「詳細」ボタンを押下" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="597" y="135.5" width="140" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="124" value="&lt;span&gt;COMPANY HR&lt;/span&gt;&lt;br&gt;&lt;span&gt;勤務実績入力画面&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="830.5" y="307.5" width="159" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="168" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="127" target="140">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="730" y="300"/>
+                            <mxPoint x="730" y="300"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="127" value="ローカルストレージ" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" parent="1" vertex="1">
+                    <mxGeometry x="625" y="322.5" width="130" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="128" value="設定値の要求" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="550" y="218.5" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="165" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="135" target="119">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="135" value="ユーザ" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="462" y="91.75" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="140" target="138" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="167" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.15;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="140" target="127">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="645" y="260"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="140" value="Web打刻自動入力システム" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="610" y="47.25" width="160" height="149.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="175" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="138" target="124">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1040" y="122.25"/>
+                            <mxPoint x="1040" y="357.25"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="176" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="138" target="124">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="138" value="有効化／無効化&lt;br&gt;スイッチはONか？" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="840" y="82" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="147" value="設定値の応答" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="730" y="290" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="152" value="値を保存" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+                    <mxGeometry x="331" y="347.5" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="153" value="値を保存" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+                    <mxGeometry x="331" y="110" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="159" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+                    <mxGeometry x="970" y="95" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="166" value="押下" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+                    <mxGeometry x="531" y="137" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="171" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+                    <mxGeometry x="910" y="157" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="177" value="自動入力しない" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="860" y="187.5" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="178" value="自動入力する" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="980" y="187.5" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="179" value="有効化・無効化&lt;br&gt;切り替え" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="10" y="10" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="180" value="有効化・無効化時&lt;br&gt;自動入力動作の違い" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="460" y="10" width="120" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
