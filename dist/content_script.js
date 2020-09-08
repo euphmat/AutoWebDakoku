@@ -24,7 +24,7 @@ $(function () {
 
     }, function (response) {
         // 有効化／無効化スイッチが有効の時のみ実行される
-        if(response.Key_ENABLEDISABLE == 1){
+        if(response.Key_ENABLEDISABLE == 1 || response.Key_ENABLEDISABLE == null){
             //ローカルストレージから設定したおいた値を取得し、それぞれのフォームへ自動的に入力させる
             $('select[name="KNMCDS"]').val(response.Key_KNMCDS);
             $('select[name="KNMTMRNGSTD"]').val(response.Key_KNMTMRNGSTD);

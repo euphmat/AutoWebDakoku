@@ -21,10 +21,10 @@ $(function () {
 
     // 有効化無効化スイッチの値を取得し、チェックを付ける必要があれば付ける
     let enabledisableSwitch = localStorage.getItem("ENABLEDISABLE");
-    if (enabledisableSwitch == 1) {
+    if (enabledisableSwitch == 1 || enabledisableSwitch == null) {
         $("input[name='ENABLEDISABLE']").prop("checked", true);
         formEnable();
-    }else{
+    }else if(enabledisableSwitch == 0){
         $("input[name='ENABLEDISABLE']").prop("checked", false);
         formDisable();
     }
