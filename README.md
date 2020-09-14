@@ -1,4 +1,8 @@
-# Web打刻自動入力システム
+# WebDakokuSystem
+
+## Required
++ Google Chrome
++ COMPANY HR
 
 ## Installing
 
