@@ -1,4 +1,4 @@
-# 🕒 Auto Web Dakoku
+# 🕒 Auto WebDakoku
 
 株式会社Works Human Intelligenceが提供する、ERPパッケージ「COMPANY HR」シリーズの  
 「Web就労」ページにて使用できる、勤怠情報を自動入力してくれるGoogle Chrome拡張機能です。
