@@ -8,6 +8,16 @@
         "48": "img/icon48.png",
         "128": "img/icon128.png"
     },
+    "commands": {
+            "_execute_browser_action": {
+                    "description": "設定画面を起動します。",
+                    "suggested_key": {
+                            "default": "Alt+W",
+                            "windows": "Alt+W",
+                            "mac": "Alt+W"
+                    }
+            }
+    },
     "browser_action":{
         "default_popup": "popup.html"
     },
