@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Web打刻自動入力システム",
     "description": "Web打刻を自動で入力します。",
-    "version": "1.1",
+    "version": "1.2",
     "icons": {
         "16": "img/icon16.png",
         "48": "img/icon48.png",
@@ -22,7 +22,7 @@
         "default_popup": "popup.html"
     },
     "content_scripts": [{
-        "matches": ["https://ghr.unify.persol-group.co.jp/cws/cws/*"],
+        "matches": ["https://ghr.unify.persol-group.co.jp/cws/cws/*","http://ghr.unify.intra.persol-group.co.jp/cws/cws/*"],
         "js": ["lib/jquery.min.js", "content_script.js"]
     }],
     "background": {
@@ -30,6 +30,7 @@
     },
     "permissions": [
         "https://ghr.unify.persol-group.co.jp/cws/cws/*",
+        "http://ghr.unify.intra.persol-group.co.jp/cws/cws/*",
         "storage",
         "unlimitedStorage"
     ]
