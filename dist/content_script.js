@@ -19,8 +19,9 @@ $(function () {
         key16: 'GI_TIME51_Seq0M',
         key17: 'SGYCD1S',
         key18: 'SGYCD2S',
-        key19: 'JSKMM',
-        key20: 'ENABLEDISABLE',
+        Key19: 'GI_COMBOBOX300_Seq0S',
+        key20: 'JSKMM',
+        key21: 'ENABLEDISABLE',
 
     }, function (response) {
         // 有効化／無効化スイッチが有効の時のみ実行される
@@ -52,6 +53,7 @@ $(function () {
             $('select[name="GI_TIME51_Seq0M"]').val(response.Key_GI_TIME51_Seq0M);
             $('select[name="SGYCD1S"]').val(response.Key_SGYCD1S);
             $('select[name="SGYCD2S"]').val(response.Key_SGYCD2S);
+            $('select[name="GI_COMBOBOX300_Seq0S"]').val(response.GI_COMBOBOX300_Seq0S);
             $('textarea[name="JSKMM"]').val(response.Key_JSKMM);
         }
     });

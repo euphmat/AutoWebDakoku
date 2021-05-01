@@ -5,7 +5,7 @@ $(function () {
     // フォームのIDリスト一覧（チェックボックスのID[RTTLCHKBX56]を省く）
     let idList = ["KNMCDS", "KNMTMRNGSTD", "KNMTMRNGSTH", "KNMTMRNGSTM", "KNMTMRNGETD", "KNMTMRNGETH", "KNMTMRNGETM", "RTTLVAL56H", "RTTLVAL56M",
         "GI_TIME50_Seq0D", "GI_TIME50_Seq0H", "GI_TIME50_Seq0M", "GI_TIME51_Seq0D", "GI_TIME51_Seq0H", "GI_TIME51_Seq0M",
-        "SGYCD1S", "SGYCD2S", "JSKMM"
+        "SGYCD1S", "SGYCD2S", "GI_COMBOBOX300_Seq0S", "JSKMM"
     ];
 
     // ローカルストレージから設定されている値を取得し、各フォームに値を入力する
