@@ -53,7 +53,7 @@ $(function () {
             $('select[name="GI_TIME51_Seq0M"]').val(response.Key_GI_TIME51_Seq0M);
             $('select[name="SGYCD1S"]').val(response.Key_SGYCD1S);
             $('select[name="SGYCD2S"]').val(response.Key_SGYCD2S);
-            $('select[name="GI_COMBOBOX300_Seq0S"]').val(response.GI_COMBOBOX300_Seq0S);
+            $('select[name="GI_COMBOBOX300_Seq0S"]').val(response.Key_GI_COMBOBOX300_Seq0S);
             $('textarea[name="JSKMM"]').val(response.Key_JSKMM);
         }
     });
