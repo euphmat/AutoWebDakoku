@@ -19,7 +19,7 @@ $(function () {
         key16: 'GI_TIME51_Seq0M',
         key17: 'SGYCD1S',
         key18: 'SGYCD2S',
-        Key19: 'GI_COMBOBOX300_Seq0S',
+        key19: 'GI_COMBOBOX300_Seq0S',
         key20: 'JSKMM',
         key21: 'ENABLEDISABLE',
 
