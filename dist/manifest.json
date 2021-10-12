@@ -1,5 +1,5 @@
 {
-    "manifest_version": 3,
+    "manifest_version": 2,
     "name": "Web打刻自動入力システム",
     "description": "Web打刻を自動で入力します。",
     "version": "1.5",
