@@ -31,7 +31,6 @@
     "permissions": [
         "https://ghr.unify.persol-group.co.jp/cws/cws/*",
         "http://ghr.unify.intra.persol-group.co.jp/cws/cws/*",
-        "storage",
         "unlimitedStorage"
     ]
 }
